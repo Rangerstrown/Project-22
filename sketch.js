@@ -67,9 +67,9 @@ function keyPressed() {
 
 	//bit confused what line of code to use here
 	if (keyCode === LEFT_ARROW) {
-	
+	fairy.x = fairy.x -2
 	}
 	if (keyCode === RIGHT_ARROW){
-	
+	fairy.x = fairy.x +2
 	}
 }
